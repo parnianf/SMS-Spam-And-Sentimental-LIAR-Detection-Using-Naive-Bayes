@@ -58,7 +58,7 @@ readily compared.
 Feature engineering is one of the most important steps in machine learning. It is the process of using domain knowledge of the data to create features that make machine learning algorithms work. If we can use suitable features and feed them to our model then the model will be able to understand the sentence better. Beside text we can use other sentiment columns as features. I employed correlation to detect relation between “label” and other features. Here is the plot of correlation matrix:
 
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/69076293/227918203-f9723a10-b2d1-4130-9c61-52c8062564f5.png" alt="correlation matrix">
+    <img width="500" src="https://user-images.githubusercontent.com/69076293/227918203-f9723a10-b2d1-4130-9c61-52c8062564f5.png" alt="correlation matrix">
 </p>
 
 I extracted features based on [this paper](https://dl.acm.org/doi/pdf/10.5555/1667583.1667679) and [this link](https://research.signal-ai.com/assets/Deception_Detection_with_NLP.pdf):
