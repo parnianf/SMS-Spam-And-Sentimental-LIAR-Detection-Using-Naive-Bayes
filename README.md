@@ -15,7 +15,7 @@ In this project, we will try to do classification on two datasets using Naïve B
 ## Part 1: Spam SMS detection (Applying Naïve Bayes on the first dataset)
 ### Preprocess:
   * **Tokenizing** by `word_tokenize()` in nltk library.
-  * **Normalizing** and convert all letters to lower case by `lower()`. This is important because we are using **BOW** model and naïve bayes and two words “Congratulations” and “congratulations” are now different so, this can hep us to detect same words better and therefore classify better.
+  * **Normalizing** and convert all letters to lower case by `lower()`. This is important because we are using **BOW** model and naïve bayes and two words “Congratulations” and “congratulations” are not different so, this can hep us to detect same words better and therefore classify better.
   * **Removing stop words** like prepositions detecting by `nltk_stopwords()`. Stop words are words like prepositions which has a high frequency in all classes to be detected so they are frequent in all classes and do not help us to classify hence, we remove them.
   * **Lemmatizing** tokens by `WordNetLemmatizer()` in `nltk`.
   
