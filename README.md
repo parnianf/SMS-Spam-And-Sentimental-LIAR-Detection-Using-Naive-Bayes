@@ -83,3 +83,7 @@ readily compared.
   * **Recall**: 0.41229656419529837
   * **Precision**: 0.5891472868217055
   * **F1 score**: 0.4851063829787234
+  
+  
+## Report
+Report is available [here](https://github.com/parnianf/SMS-Spam-And-Sentimental-LIAR-Detection-Using-Naive-Bayes/blob/main/NLP_CA2_Report-English.pdf). 
